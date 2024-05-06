@@ -1,0 +1,1001 @@
+repo_name: assistaplus/assp-gpt4all
+report_id: 5b8a817e5d5cba4fb70a38c705921ab7
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-06T13:40:42+00:00'
+requested_by: cebtenzzre
+provider: github
+branch: main
+detected_tools_count: 68
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: Andriy Mulyar
+  last_updated_on: 2023-06-28 18:28:52.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/csharp/Gpt4All/Gpt4All.csproj
+  detection_source: gpt4all-bindings/csharp/Gpt4All/Gpt4All.csproj
+  last_updated_by: mvenditto
+  last_updated_on: 2023-05-22 19:56:49.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '7.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/csharp/Gpt4All.Samples/Gpt4All.Samples.csproj
+  detection_source: gpt4all-bindings/csharp/Gpt4All.Samples/Gpt4All.Samples.csproj
+  last_updated_by: mvenditto
+  last_updated_on: 2023-07-09 17:30:47.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '7.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/csharp/Gpt4All.Samples/Gpt4All.Samples.csproj
+  detection_source: gpt4all-bindings/csharp/Gpt4All.Samples/Gpt4All.Samples.csproj
+  last_updated_by: mvenditto
+  last_updated_on: 2023-07-09 17:30:47.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.95.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: Andriy Mulyar
+  last_updated_on: 2023-06-28 18:28:52.000000000 Z
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-training/requirements.txt
+  detection_source: gpt4all-training/requirements.txt
+  last_updated_by: Zach
+  last_updated_on: 2023-04-10 02:14:20.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/package.json
+  detection_source: gpt4all-bindings/typescript/package.json
+  last_updated_by: Jacob Nguyen
+  last_updated_on: 2023-05-22 19:55:22.000000000 Z
+- name: Mentat
+  description: persistent, relational store by Mozilla
+  website_url: https://mozilla.github.io/mentat
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/package.json
+  detection_source: gpt4all-bindings/typescript/package.json
+  last_updated_by: Jacob Nguyen
+  last_updated_on: 2023-12-15 18:44:39.000000000 Z
+- name: CMake
+  description: An open-source system that manages the build process
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Jared Van Bortel
+  last_updated_on: 2024-01-17 17:41:52.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/.github/workflows/close_issues.yml
+  detection_source: ".github/workflows/close_issues.yml"
+  last_updated_by: Richard Guo
+  last_updated_on: 2023-05-18 17:11:45.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/java/pom.xml
+  detection_source: gpt4all-bindings/java/pom.xml
+  last_updated_by: Felix Zaslavskiy
+  last_updated_on: 2023-06-12 18:58:06.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/yarn.lock
+  detection_source: gpt4all-bindings/typescript/package.json
+  last_updated_by: Jacob Nguyen
+  last_updated_on: 2023-05-22 19:55:22.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 5.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/java/pom.xml
+  detection_source: gpt4all-bindings/java/pom.xml
+  last_updated_by: felix
+  last_updated_on: 2023-06-18 04:50:12.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/csharp/Gpt4All/Gpt4All.csproj
+  detection_source: gpt4all-bindings/csharp/Gpt4All/Gpt4All.csproj
+  last_updated_by: mvenditto
+  last_updated_on: 2023-05-22 19:56:49.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/yarn.lock
+  detection_source: gpt4all-bindings/typescript/package.json
+  last_updated_by: Jacob Nguyen
+  last_updated_on: 2023-06-12 19:00:20.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-training/requirements.txt
+  detection_source: gpt4all-training/requirements.txt
+  last_updated_by: Zach Nussbaum
+  last_updated_on: 2023-03-25 16:16:40.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/java/pom.xml
+  detection_source: gpt4all-bindings/java/pom.xml
+  last_updated_by: Felix Zaslavskiy
+  last_updated_on: 2023-06-12 18:58:06.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/csharp/Gpt4All.sln
+  detection_source: gpt4all-bindings/csharp/Gpt4All.sln
+  last_updated_by: mvenditto
+  last_updated_on: 2023-05-22 19:56:49.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/yarn.lock
+  detection_source: gpt4all-bindings/typescript/yarn.lock
+  last_updated_by: Jacob Nguyen
+  last_updated_on: 2023-11-01 19:38:58.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/package.json
+  detection_source: gpt4all-bindings/typescript/package.json
+  last_updated_by: Jacob Nguyen
+  last_updated_on: 2023-05-22 19:55:22.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: Andriy Mulyar
+  last_updated_on: 2023-06-28 18:28:52.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.2
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/csharp/Gpt4All.Tests/Gpt4All.Tests.csproj
+  detection_source: gpt4all-bindings/csharp/Gpt4All.Tests/Gpt4All.Tests.csproj
+  last_updated_by: redthing1
+  last_updated_on: 2023-05-22 23:18:04.000000000 Z
+- name: GPT4All
+  description: A free-to-use, locally running, privacy-aware chatbot
+  website_url: https://gpt4all.io/index.html
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: GPT Tools
+  image_url: https://img.stackshare.io/service/109223/default_f477d8a1160a73dc008ccb33efa5d4b9d45baa07.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/yarn.lock
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: Andriy Mulyar
+  last_updated_on: 2023-06-28 18:28:52.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.28.0
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: Andriy Mulyar
+  last_updated_on: 2023-06-28 18:28:52.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: Qml
+  description: Qt, a leading cross-platform application and UI framework. With Qt,
+    you can develop applications once and deploy to leading desktop, embedded &amp;
+    mobile targets.
+  website_url: https://doc.qt.io/qt-5/qtqml-index.html
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10735/hB7JEnDh_normal.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all
+  detection_source: Repo Metadata
+- name: aiohttp
+  description: Async http client/server framework
+  package_url: https://pypi.org/project/aiohttp
+  version: 3.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19852/default_d748224707283d9d8a73c2323730c87bda6b313a.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: Andriy Mulyar
+  last_updated_on: 2023-06-28 18:28:52.000000000 Z
+  vulnerabilities:
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via version
+    cve_id: CVE-2023-49081
+    cve_url: https://github.com/advisories/GHSA-q3qx-c6g2-7pw2
+    detected_date: Nov 28
+    severity: high
+    first_patched: 3.9.0
+  - name: aiohttp vulnerable to Denial of Service when trying to parse malformed POST
+      requests
+    cve_id: CVE-2024-30251
+    cve_url: https://github.com/advisories/GHSA-5m98-qgg9-wh84
+    detected_date: May 4
+    severity: high
+    first_patched: 3.9.4
+  - name: aiohttp's HTTP parser (the python one, not llhttp) still overly lenient
+      about separators
+    cve_id: CVE-2024-23829
+    cve_url: https://github.com/advisories/GHSA-8qpw-xqxj-h4r2
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: aiohttp is vulnerable to directory traversal
+    cve_id: CVE-2024-23334
+    cve_url: https://github.com/advisories/GHSA-5h86-8mv2-jq9f
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: AIOHTTP has problems in HTTP parser (the python one, not llhttp)
+    cve_id: CVE-2023-47627
+    cve_url: https://github.com/advisories/GHSA-gfw2-4jvh-wgfg
+    detected_date: Nov 15
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp has vulnerable dependency that is vulnerable to request smuggling
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-pjjw-qhg8-p2p9
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via method
+    cve_id: CVE-2023-49082
+    cve_url: https://github.com/advisories/GHSA-qvrw-v9rv-5rjx
+    detected_date: Nov 28
+    severity: moderate
+    first_patched: 3.9.0
+  - name: 'Withdrawn: Denial of Service in aiohttp'
+    cve_id: CVE-2022-33124
+    cve_url: https://github.com/advisories/GHSA-rwqr-c348-m5wr
+    detected_date: Jun 26
+    severity: moderate
+    first_patched:
+  - name: aiohttp Cross-site Scripting vulnerability on index pages for static file
+      handling
+    cve_id: CVE-2024-27306
+    cve_url: https://github.com/advisories/GHSA-7gpw-8wmc-pm8g
+    detected_date: Apr 19
+    severity: moderate
+    first_patched: 3.9.4
+  - name: aiohttp.web.Application vulnerable to HTTP request smuggling via llhttp
+      HTTP request parser
+    cve_id: CVE-2023-37276
+    cve_url: https://github.com/advisories/GHSA-45c4-8wx5-qw6w
+    detected_date: Jul 21
+    severity: moderate
+    first_patched: 3.8.5
+  - name: "`aiohttp` Open Redirect vulnerability (`normalize_path_middleware` middleware)"
+    cve_id: CVE-2021-21330
+    cve_url: https://github.com/advisories/GHSA-v6wp-4m6f-gcjg
+    detected_date: Aug 22
+    severity: low
+    first_patched: 3.7.4
+  - name: Aiohttp has inconsistent interpretation of `Content-Length` vs. `Transfer-Encoding`
+      differing in C and Python fallbacks
+    cve_id: CVE-2023-47641
+    cve_url: https://github.com/advisories/GHSA-xx9p-xxvh-7g8j
+    detected_date: Nov 15
+    severity: low
+    first_patched: 3.8.0
+- name: ujson
+  description: Ultra fast JSON encoder and decoder for Python
+  package_url: https://pypi.org/project/ujson
+  version: 2.0.2
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20357/default_1e2908ef2614eb1bb39298a5fc937d8c068f3a2c.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: Andriy Mulyar
+  last_updated_on: 2023-06-28 18:28:52.000000000 Z
+  vulnerabilities:
+  - name: Incorrect handling of invalid surrogate pair characters
+    cve_id: CVE-2022-31116
+    cve_url: https://github.com/advisories/GHSA-wpqr-jcpx-745r
+    detected_date: Jul 6
+    severity: high
+    first_patched: 5.4.0
+  - name: UltraJSON vulnerable to Out-of-bounds Write
+    cve_id: CVE-2021-45958
+    cve_url: https://github.com/advisories/GHSA-fh56-85cw-5pq6
+    detected_date: Jan 22
+    severity: moderate
+    first_patched: 5.2.0
+  - name: Potential double free of buffer during string decoding
+    cve_id: CVE-2022-31117
+    cve_url: https://github.com/advisories/GHSA-fm67-cv37-96ff
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 5.4.0
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: Zach Nussbaum
+  last_updated_on: 2023-07-21 19:13:29.000000000 Z
+  vulnerabilities:
+  - name: Pydantic regular expression denial of service
+    cve_id: CVE-2024-3772
+    cve_url: https://github.com/advisories/GHSA-mr82-8j83-vxmv
+    detected_date: Apr 25
+    severity: moderate
+    first_patched: 1.10.13
+  - name: Use of "infinity" as an input to datetime and date fields causes infinite
+      loop in pydantic
+    cve_id: CVE-2021-29510
+    cve_url: https://github.com/advisories/GHSA-5jqp-qgf6-3pvh
+    detected_date: Aug 22
+    severity: low
+    first_patched: 1.6.2
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.24.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: Andriy Mulyar
+  last_updated_on: 2023-06-28 18:28:52.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: aiofiles
+  description: File support for asyncio
+  package_url: https://pypi.org/project/aiofiles
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20183/default_3d320a0aa731f16ceb0e7b6999ca7f7cd784aee2.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: Andriy Mulyar
+  last_updated_on: 2023-06-28 18:28:52.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: Zach Nussbaum
+  last_updated_on: 2023-07-21 19:13:29.000000000 Z
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: dsalvatierra
+  last_updated_on: 2023-11-12 04:27:32.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.28.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: dsalvatierra
+  last_updated_on: 2023-11-12 04:27:32.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-api/gpt4all_api/requirements.txt
+  detection_source: gpt4all-api/gpt4all_api/requirements.txt
+  last_updated_by: dsalvatierra
+  last_updated_on: 2023-11-12 04:27:32.000000000 Z
+- name: scikit-learn
+  description: A set of python modules for machine learning and data mining
+  package_url: https://pypi.org/project/scikit-learn
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19898/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-training/requirements.txt
+  detection_source: gpt4all-training/requirements.txt
+  last_updated_by: Zach
+  last_updated_on: 2023-04-10 02:14:20.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/python/setup.py
+  detection_source: gpt4all-bindings/python/setup.py
+  last_updated_by: Richard Guo
+  last_updated_on: 2023-05-10 17:38:32.000000000 Z
+- name: assertion
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega/internal/assertion
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/golang/go.mod
+  detection_source: gpt4all-bindings/golang/go.mod
+  last_updated_by: Ettore Di Giacinto
+  last_updated_on: 2023-05-15 16:45:56.000000000 Z
+- name: gomega
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega
+  version: 1.27.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/golang/go.sum
+  detection_source: gpt4all-bindings/golang/go.mod
+  last_updated_by: Ettore Di Giacinto
+  last_updated_on: 2023-05-15 16:45:56.000000000 Z
+- name: logr
+  description: A simple logging interface for Go
+  package_url: https://pkg.go.dev/github.com/go-logr/logr
+  version: 1.2.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/golang/go.sum
+  detection_source: gpt4all-bindings/golang/go.mod
+  last_updated_by: Ettore Di Giacinto
+  last_updated_on: 2023-05-15 16:45:56.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.9.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/golang/go.sum
+  detection_source: gpt4all-bindings/golang/go.mod
+  last_updated_by: Ettore Di Giacinto
+  last_updated_on: 2023-05-15 16:45:56.000000000 Z
+- name: pprof
+  description: Pprof is a tool for visualization and analysis of profiling data
+  package_url: https://pkg.go.dev/github.com/google/pprof
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/golang/go.sum
+  detection_source: gpt4all-bindings/golang/go.mod
+  last_updated_by: Ettore Di Giacinto
+  last_updated_on: 2023-05-15 16:45:56.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/golang/go.sum
+  detection_source: gpt4all-bindings/golang/go.mod
+  last_updated_by: Ettore Di Giacinto
+  last_updated_on: 2023-05-15 16:45:56.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.9.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/golang/go.sum
+  detection_source: gpt4all-bindings/golang/go.mod
+  last_updated_by: Ettore Di Giacinto
+  last_updated_on: 2023-05-15 16:45:56.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.8.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/golang/go.sum
+  detection_source: gpt4all-bindings/golang/go.mod
+  last_updated_by: Ettore Di Giacinto
+  last_updated_on: 2023-05-15 16:45:56.000000000 Z
+- name: com.github.jnr:jnr-ffi
+  description: A library for invoking native functions from java
+  version: 2.2.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/java/pom.xml
+  detection_source: gpt4all-bindings/java/pom.xml
+  last_updated_by: Felix Zaslavskiy
+  last_updated_on: 2023-06-12 18:58:06.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  version: 5.9.2
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/java/pom.xml
+  detection_source: gpt4all-bindings/java/pom.xml
+  last_updated_by: felix
+  last_updated_on: 2023-06-28 15:49:34.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 5.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/java/pom.xml
+  detection_source: gpt4all-bindings/java/pom.xml
+  last_updated_by: felix
+  last_updated_on: 2023-06-28 15:49:34.000000000 Z
+- name: org.mockito:mockito-junit-jupiter
+  description: Mockito JUnit 5 support
+  version: 5.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/java/pom.xml
+  detection_source: gpt4all-bindings/java/pom.xml
+  last_updated_by: felix
+  last_updated_on: 2023-06-28 15:49:34.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.36
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/java/pom.xml
+  detection_source: gpt4all-bindings/java/pom.xml
+  last_updated_by: felix
+  last_updated_on: 2023-06-28 15:49:34.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/yarn.lock
+  detection_source: gpt4all-bindings/typescript/package.json
+  last_updated_by: Jacob Nguyen
+  last_updated_on: 2023-12-15 18:44:39.000000000 Z
+- name: documentation
+  description: A documentation generator
+  package_url: https://www.npmjs.com/documentation
+  version: 14.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16311/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/yarn.lock
+  detection_source: gpt4all-bindings/typescript/package.json
+  last_updated_by: Jacob Nguyen
+  last_updated_on: 2023-12-15 18:44:39.000000000 Z
+- name: md5-file
+  description: Return an md5sum of a given file
+  package_url: https://www.npmjs.com/md5-file
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17487/default_1d2902e8f9c84259702671591379572493b9009b.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/yarn.lock
+  detection_source: gpt4all-bindings/typescript/package.json
+  last_updated_by: Jacob Nguyen
+  last_updated_on: 2023-12-15 18:44:39.000000000 Z
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/yarn.lock
+  detection_source: gpt4all-bindings/typescript/package.json
+  last_updated_by: Jacob Nguyen
+  last_updated_on: 2023-06-12 19:00:20.000000000 Z
+- name: node-addon-api
+  description: Node.js API
+  package_url: https://www.npmjs.com/node-addon-api
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17849/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/typescript/yarn.lock
+  detection_source: gpt4all-bindings/typescript/package.json
+  last_updated_by: Jacob Nguyen
+  last_updated_on: 2023-12-15 18:44:39.000000000 Z
+- name: Microsoft.Extensions.Logging.Abstractions
+  description: Logging abstractions for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Microsoft.Extensions.Logging.Abstractions
+  version: 7.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12853/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/csharp/Gpt4All/Gpt4All.csproj
+  detection_source: gpt4all-bindings/csharp/Gpt4All/Gpt4All.csproj
+  last_updated_by: Jared Van Bortel
+  last_updated_on: 2024-01-16 19:33:41.000000000 Z
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all/blob/main/gpt4all-bindings/csharp/Gpt4All.Tests/Gpt4All.Tests.csproj
+  detection_source: gpt4all-bindings/csharp/Gpt4All.Tests/Gpt4All.Tests.csproj
+  last_updated_by: mvenditto
+  last_updated_on: 2023-06-16 22:18:57.000000000 Z
